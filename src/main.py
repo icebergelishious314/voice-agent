@@ -1,3 +1,9 @@
+print("MAIN.PY STARTED")
+
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).parent))
+
 from config import *
 from audio.recorder import record_wav
 from audio.player import play_wav

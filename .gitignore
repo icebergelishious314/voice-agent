@@ -2,18 +2,18 @@
 __pycache__/
 *.pyc
 
-# Virtual env
+# Virtual environments
 venv/
 
 # Audio files
 *.wav
 
-# Models
-voices/
+# Models (adjust if needed)
+models/
+*.onnx
+*.pt
 
-# VS Code
+# OS / editor
 .vscode/
-
-# OS
 .DS_Store
 Thumbs.db

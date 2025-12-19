@@ -3,5 +3,5 @@ RECORD_SECONDS = 5
 
 WHISPER_MODEL = "base"
 
-PIPER_MODEL_PATH = "voices/en_US-lessac-medium.onnx"
+PIPER_MODEL_PATH = "voices/en_US-hfc_female-medium.onnx"
 

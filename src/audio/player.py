@@ -1,7 +1,11 @@
-import sounddevice as sd
-import soundfile as sf
+import winsound
+from pathlib import Path
 
-def play_wav(filename):
-    audio, sr = sf.read(filename)
-    sd.play(audio, sr)
-    sd.wait()
+def play_wav(path):
+    path = Path(path).resolve()
+    print("Playing:", path)
+
+    winsound.PlaySound(
+        str(path),
+        winsound.SND_FILENAME   # ← no SND_SYNC
+    )
