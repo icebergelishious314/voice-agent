@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+
+# Audio files
+*.wav
+
+# Models
+voices/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
