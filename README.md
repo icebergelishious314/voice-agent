@@ -31,7 +31,12 @@ download voices from here: https://rhasspy.github.io/piper-samples/###en_US-hfc_
 save the ".onnx" file and ."json" in the voices folder
 
 
-
+#### Saving to git uhb
+git init
+git status
+git add .
+git git commit - "desc"
+gut push origin main
 
 
 
